@@ -22,7 +22,7 @@ func TestHttp(t *testing.T) {
 	}
 
 	// Return value test
-	if w.Body.String() != "pongd" {
+	if w.Body.String() != "pong" {
 		t.Error("Dönen cevap farklı, test başarısız")
 	}
 
