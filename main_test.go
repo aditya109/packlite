@@ -17,7 +17,7 @@ func TestHttp(t *testing.T) {
 	handler(w, req)
 
 	// Status code test
-	if w.Code != 404 {
+	if w.Code != 200 {
 		t.Error("Http test isteği başarısız")
 	}
 
